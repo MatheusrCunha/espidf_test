@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "project-name",
-    "project_version":    "4eaddc3",
+    "project_version":    "190aea8-dirty",
     "project_path":       "D:/espidf_test/project-name",
     "idf_path":           "C:/Users/mathe/esp/v5.3.2/esp-idf",
     "build_dir":          "D:/espidf_test/project-name/build",
