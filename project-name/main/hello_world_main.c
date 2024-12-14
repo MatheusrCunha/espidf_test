@@ -20,10 +20,10 @@ void app_main(void) {
     while (1) {
         // Liga o LED
         gpio_set_level(LED_PIN, 1);
-        vTaskDelay(500 / portTICK_PERIOD_MS); // Espera 500 ms
+        vTaskDelay(3000 / portTICK_PERIOD_MS); // Espera 500 ms
 
         // Desliga o LED
         gpio_set_level(LED_PIN, 0);
-        vTaskDelay(500 / portTICK_PERIOD_MS); // Espera 500 ms
+        vTaskDelay(3000 / portTICK_PERIOD_MS); // Espera 500 ms
     }
 }
